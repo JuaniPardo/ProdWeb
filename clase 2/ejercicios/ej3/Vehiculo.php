@@ -1,6 +1,6 @@
 <?php
 
-class Vehiculo
+abstract class Vehiculo implements iVehiculo
 {
     private $cant_ruedas;
     private $cant_puertas;
@@ -19,6 +19,10 @@ class Auto extends Vehiculo
     {
         parent::__construct(4, $cant_puertas);
     }
+    public function revisarMotor()
+    {
+        // TODO: Implement revisarMotor() method.
+    }
 }
 
 class Moto extends Vehiculo
@@ -27,6 +31,10 @@ class Moto extends Vehiculo
     {
         parent::__construct(2, 0);
     }
+    public function revisarMotor()
+    {
+        // TODO: Implement revisarMotor() method.
+    }
 }
 
 class Camion extends Vehiculo
@@ -34,5 +42,9 @@ class Camion extends Vehiculo
     public function __construct($cant_ruedas)
     {
         parent::__construct($cant_ruedas, 2);
+    }
+    public function revisarMotor()
+    {
+        // TODO: Implement revisarMotor() method.
     }
 }
