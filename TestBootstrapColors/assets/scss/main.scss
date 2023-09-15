@@ -1,0 +1,14 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+$custom-colors: (
+        "theme-magenta": #D83787,
+        "theme-violeta": #2a1b3d,
+        "theme-azul": #443182,
+        "theme-lila": #7d62a0,
+        "theme-gris": #a4b3b6,
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
