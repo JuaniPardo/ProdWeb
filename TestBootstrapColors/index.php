@@ -79,7 +79,7 @@
     </div>
 </nav>
 
-<div class="container">
+<div class="container-fluid">
     <div class="row">
         <div class="col-8">
             <h1 class="text-light">Test Bootstrap Colors</h1>
@@ -145,47 +145,56 @@
         </div>
     </div>
 
-    <div class="container bg-light mt-5">
+    <div class="container-fluid bg-light mt-5">
         <div class="row p-5 align-items-center">
-            <div class="col-md-6">
-                <div class="image-container d-flex flex-column align-items-center py-5 mx-3">
-                    <img src="assets/img/191800-1200-auto.png" alt="Monitor" class="img-fluid">
-                    <div class="shadow-img"></div>
+            <div class="col-lg-6">
+                <div class="image-container d-flex flex-column align-items-center py-5 mx-3 rounded-1">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-8 col-lg-12">
+                            <img src="assets/img/191800-1200-auto.png" alt="Monitor" class="img-fluid">
+                            <div class="shadow-img"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-6 text-center">
+            <div class="col-lg-6 text-center">
                 <div class="row justify-content-center">
-                    <div class="col-10">
+                    <div class="col-11 col-lg-9">
                         <h2 class="text-theme-azul product-title text-start my-5">Monitor SAMSUNG SMGM24</h2>
                         <p class="description text-start">
                             El Nuevo Monitor Gamer Samsung SMGM24 de 24" cuenta con una resolución Full HD de 1920 x
                             1080 y una tasa de refresco de 144Hz, que te permitirá disfrutar de una experiencia de juego
-                            fluida y sin interrupciones. Además, su tiempo de respuesta de 1ms te permitirá reaccionar
-                            rápidamente a lo que sucede en la pantalla.
+                            fluida y sin interrupciones.
                         </p>
+                        <div class="btn btn-theme-magenta rounded-0 text-light mt-2">Ver Producto</div>
                     </div>
-
                 </div>
-
-
             </div>
         </div>
         <div class="row p-5 align-items-center">
-            <div class="col-md-6 order-md-2">
-                <div class="image-container d-flex flex-column align-items-center py-5 mx-3">
-                    <img src="assets/img/mouse1.png" alt="Mouse" class="img-fluid">
-                    <div class="shadow-img"></div>
+            <div class="col-lg-6 order-lg-2">
+                <div class="image-container d-flex flex-column align-items-center py-5 mx-3 rounded-1">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-8 col-lg-12">
+                            <img src="assets/img/mouse1.png" alt="Mouse" class="img-fluid">
+                            <div class="shadow-img"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-6 text-center order-md-1">
+            <div class="col-lg-6 text-center order-md-1">
                 <div class="row justify-content-center">
-                    <div class="col-10">
-                        <h2 class="text-theme-azul product-title text-start my-5">Mouse Razer GM2200X</h2>
+                    <div class="col-10 col-lg-8">
+                        <h2 class="text-theme-azul product-title text-start my-3">Mouse Razer GM2200X</h2>
                         <p class="description text-start">
-                            El Mouse Razer GM2200X cuenta con un sensor óptico de 6400 DPI, 6 botones programables y un
-                            diseño ergonómico que se adapta a la forma de tu mano. Además, cuenta con iluminación RGB
+                            El Mouse Razer GM2200X cuenta con un sensor óptico de 6400 DPI, 6 botones
+                            programables y un
+                            diseño ergonómico que se adapta a la forma de tu mano. Además, cuenta con
+                            iluminación RGB
                             Chroma que podrás personalizar a tu gusto.
                         </p>
+                        <div class="btn btn-theme-magenta rounded-0 text-light mt-2">Ver Producto</div>
+
                     </div>
 
                 </div>
